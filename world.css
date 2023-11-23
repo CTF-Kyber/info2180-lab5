@@ -1,1 +1,60 @@
 /* Add your own styles */
+
+header{
+    display: flex;
+    align-items: center;
+    background-color:cornflowerblue;
+    margin: 10px;
+    justify-content: center;
+    height: 150px;
+}
+
+header h1{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: white;
+    font-size: 25x;
+  }
+
+  main {
+    display :flex;
+    background-color:cornflowerblue;
+    margin: 10px 100px 10px 100px;
+    height: 150px;
+    height: auto;
+    padding: 20px;
+    justify-content:center;
+
+  }
+
+  #country{
+    width: 75%;
+    height: 40px;
+  }
+
+  .search-btn{
+    margin-top: 10px;
+    margin-left: 10%;
+    height: 50px;
+    width:50%;
+    background-color: rgb(250, 90, 90);
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  #result{
+
+    margin: 10px;
+    font-size: 20px;
+    padding:5px;
+    color: white;
+    border-top: 1px black solid;
+    text-align: center;
+
+    }
+
+    table, th, td {
+        border: 1px solid black;
+        border-collapse: collapse;
+      }
